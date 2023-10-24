@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: ATL org.eclipse.m2m.atl.frsl2uml Transformation Runtime Plug-in
-Bundle-SymbolicName: org.eclipse.m2m.atl.frsl2uml;singleton:=true
+Bundle-Name: ATL org.eclipse.sme.frsl2uml Transformation Runtime Plug-in
+Bundle-SymbolicName: org.eclipse.sme.frsl2uml;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: org.eclipse.sme.frsl2uml.Activator
 Bundle-Vendor: Eclipse Modeling Project
