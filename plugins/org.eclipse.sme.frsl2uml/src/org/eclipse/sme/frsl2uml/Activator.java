@@ -21,7 +21,7 @@ public class Activator extends Plugin {
 	/**
 	 * The plug-in ID.
 	 */
-	public static final String PLUGIN_ID = "org.eclipse.m2m.atl.frsl2uml";
+	public static final String PLUGIN_ID = "org.eclipse.sme.frsl2uml";
 
 	/**
 	 * The shared instance.
