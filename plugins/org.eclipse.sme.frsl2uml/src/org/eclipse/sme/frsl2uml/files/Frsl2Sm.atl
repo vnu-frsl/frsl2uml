@@ -529,9 +529,12 @@ rule Property2Property {
 						if( s.type.ownedBindings->first().ownedSubstitutions->first().actual.name = 'OclAny') then
 							--TODO: FIX ME! It needs to embed OCL expressions 
 							Uml!PrimitiveType.allInstancesFrom('TYPES')->any(p | p.name = 'String')
-						else							
+						else if( s.type.ownedBindings->first().ownedSubstitutions->first().actual.name = 'Integer') then
+							--TODO: FIX ME! It needs to embed OCL expressions 
+							Uml!PrimitiveType.allInstancesFrom('TYPES')->any(p | p.name = 'Integer')
+						else	
 							s.type.ownedBindings->first().ownedSubstitutions->first().actual
-						endif
+						endif endif
 					else if s.type.oclIsKindOf(Frsl!PrimitiveType) then
 						thisModule.umlType(s.type)
 					else
